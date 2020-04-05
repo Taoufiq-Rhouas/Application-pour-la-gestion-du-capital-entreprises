@@ -34,5 +34,5 @@ app.use(routeAddDepartment);
 app.use(routeAddNewEmployer);
 
 app.listen(port, () => {console.log(`listening on port ${port}!`);
-//opn("http://localhost:3000/vue/login.html")
+opn("http://localhost:3000/vue/login.html")
 });
