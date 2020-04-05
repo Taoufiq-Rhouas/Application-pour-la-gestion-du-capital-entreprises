@@ -123,6 +123,7 @@ function AddToDataEmployer(){
 
 
 function AddToTableEmployer(data){
+    var conturid =1;
     var nameDepartement = '';
     $("#touEmployer").html(nameDepartement);
     $.each(data, function (key, value) {
@@ -130,12 +131,27 @@ function AddToTableEmployer(data){
             nameDepartement +='<tr class="1">';
             nameDepartement +='<th scope="row">' + value.Matricule + '</th>';
             nameDepartement +='<th scope="row">' + value.nom + '</th>';
-            nameDepartement +='<th scope="row">' + value.Prenom + '</th>';
-            nameDepartement +='<th scope="row">' + value.Age + '</th>';
-            nameDepartement +='<th scope="row">' + value.salaire + '</th>';
-            nameDepartement +='<th scope="row">' + value.departement + '</th>';
+            nameDepartement +='<th scope="row" class="2"> <input type="button" onclick="biyenliya(this.id)" id="event_afficher'+ conturid +'" value="tous autres détails"></th>';
             nameDepartement +='</tr>';
+
+            nameDepartement +='<tr>';
+            nameDepartement +='<th scope="row" colspan="3"><br>';
+            nameDepartement +='<div class="ban" id="event_afficher'+conturid+'_div"style="display: none;">'
+            nameDepartement +='<div><p>Matricule : ' + value.Matricule + '</p></div>';
+            nameDepartement +='<div><p>Nom : ' + value.nom + ' </p></div>';
+            nameDepartement +='<div><p>Prenom : ' + value.Prenom + ':</p></div>';
+            nameDepartement +='<div><p>Age : ' + value.Age + '</p></div>';
+            nameDepartement +='<div><p>salaire : ' + value.salaire + '</p></div>';
+            nameDepartement +='<div>Departement : ' + value.departement + '</p></div>';
+            nameDepartement +='</div>';
+            nameDepartement +='</th>';
+            nameDepartement +='</tr>';
+            conturid ++;
         }
     });
     $("#touEmployer").append(nameDepartement);
+}
+function biyenliya(d){
+    var id_div = '#'+d+'_div';
+    $(id_div).slideToggle(1000);  
 }
