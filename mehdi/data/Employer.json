@@ -1,0 +1,123 @@
+
+[
+    {
+        "Matricule": "MA1",
+        "nom" : "elmehdi",
+        "Prenom" : "abouloualid",
+        "salaire": "4500DH",
+        "departement" : "commerce",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA2",
+        "nom" : "taoufiq",
+        "Prenom" : "raous",
+        "salaire": "4500DH",
+        "departement" : "commerce",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA3",
+        "nom" : "tarik",
+        "Prenom" : "moubarik",
+        "salaire": "4500DH",
+        "departement" : "commerce",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA4",
+        "nom" : "meryam",
+        "Prenom" : "elhadki",
+        "salaire": "4500DH",
+        "departement" : "commerce",
+        "Age" : "23"
+    },
+    {
+        "Matricule": "MA5",
+        "nom" : "salwa",
+        "Prenom" : "salimi",
+        "salaire": "4500DH",
+        "departement" : "commerce",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA6",
+        "nom" : "fatimaezzahra",
+        "Prenom" : "moubadir",
+        "salaire": "5000DH",
+        "departement" : "ressource humain",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA7",
+        "nom" : "hossam",
+        "Prenom" : "mouradi",
+        "salaire": "5000DH",
+        "departement" : "ressource humain",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA8",
+        "nom" : "hassan",
+        "Prenom" : "boufaa",
+        "salaire": "5000DH",
+        "departement" : "ressource humain",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA9",
+        "nom" : "iman",
+        "Prenom" : "hamria",
+        "salaire": "5000DH",
+        "departement" : "ressource humain",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA10",
+        "nom" : "souad",
+        "Prenom" : "houssni",
+        "salaire": "5000DH",
+        "departement" : "ressource humain",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA11",
+        "nom" : "soufaine",
+        "Prenom" : "shaib",
+        "salaire": "5500DH",
+        "departement" : "informatique",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA12",
+        "nom" : "douaa",
+        "Prenom" : "abouloualid",
+        "salaire": "5500DH",
+        "departement" : "informatique",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA13",
+        "nom" : "kaoutre",
+        "Prenom" : "sahimi",
+        "salaire": "5500DH",
+        "departement" : "informatique",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA14",
+        "nom" : "ilayss",
+        "Prenom" : "abouloualid",
+        "salaire": "5500DH",
+        "departement" : "informatique",
+        "Age" : "24"
+    },
+    {
+        "Matricule": "MA15",
+        "nom" : "imade",
+        "Prenom" : "banani",
+        "salaire": "5500DH",
+        "departement" : "informatique",
+        "Age" : "24"
+    }
+  ]
