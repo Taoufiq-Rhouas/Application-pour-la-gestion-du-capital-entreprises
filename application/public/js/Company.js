@@ -92,7 +92,7 @@ function AddToTable(data){
                     company_Data += '<td>' + value.name + '</td>';
                     company_Data += '<td>' + value.local + '</td>';
                     company_Data += '<td>' + value.description + '</td>';
-                    company_Data += '<td>' + '<select class="form-control">' + options + '</select>'+ '</td>';
+                    company_Data += '<td>' + '<select class="form-control" onchange="myFunction(this.value)">' + options + '</select>'+ '</td>';
                     company_Data += '<td class="text-center"><a class="btn btn-info btn-xs" href="#" data-toggle="modal" data-target="#exampleModalCenter2"onclick="show('+key+')" ><span class="glyphicon glyphicon-edit"></span> Add Department</a></td>';
                     company_Data += '</tr>';
                 });
@@ -103,4 +103,19 @@ function AddToTable(data){
 function show(indice){ 
     localStorage.setItem("id",indice);
 }
+
+// start update taoufiq
+
+var departementSelect;
+function myFunction(val) {
+    departementSelect = val;
+    localStorage.setItem("NameDepart",departementSelect);
+    document.getElementById('name-departement').innerHTML=departementSelect;
+    document.getElementById('toderect').style.display = "block";
+}
+function closepop(){
+    document.getElementById('toderect').style.display = "none";
+}
+
+// end update taoufiq
 

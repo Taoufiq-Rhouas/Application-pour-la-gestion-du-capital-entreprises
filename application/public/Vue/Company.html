@@ -18,24 +18,34 @@
 
   <!-- Navigation -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#"><img src="Images/LogoCompany.png" width="80px" height="60px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item ">
-          <a class="nav-link" href="#"><i class="fas fa-user"></i> <span id="useremail"></span></a>
-        </li>
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#" onclick="window.location.href = 'login.html';"><i
-              class="fas fa-sign-out-alt"></i> Sign out</a>
+          <a class="nav-link" href="Company.html">Company</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Employer.html">Employer</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </li>
       </ul>
+      <span class="navbar-text">
+        
+        <div style="display: flex;">
+          <a class="nav-link" href="#"><i class="fas fa-user"></i> <span id="useremail"></span></a>
+          <a class="nav-link" href="#" onclick="window.location.href = 'login.html';"><i class="fas fa-sign-out-alt"></i> Sign out</a>
+        </div>
+      </span>
     </div>
   </nav>
+<!-- Navbar text with an inline element -->
 
  <!-- Carousel -->  
  <!--Carousel Wrapper-->
@@ -187,6 +197,22 @@
   </div>
   </div>
 
+    <!-- start update taoufiq -->
+
+    <center>
+      <div id="toderect" style="width: 20%;background-color: gray;position: fixed;margin: 0 auto;left: 0;right: 0;top: 0;bottom: 0; margin-left: auto;margin-right: auto;margin-top: auto;margin-bottom: auto;height: 20%;border-radius: 10px;box-shadow: 0px 0px 200em black;display: none;z-index: 20;">
+        <!-- <button style="float: right;font-size: 20px; border-radius: 10px;border: none;">X</button><br><br> -->
+        <center><span>departement : </span> <span id="name-departement"></span></center>
+        <center><input type="button" id="afficher_detail_departement" name="" value="affichrt les detail" onclick="window.location.href = 'Employer.html';"></center>
+        <!-- <input type="button" id="go" value="go to 2PAGE"  onclick="window.location.href = 'about.html';"> -->
+        <center><input type="button" name="" value="anuler" onclick="closepop()"></center>
+      </div>
+    </center> 
+    
+    
+  
+    <!-- end update taoufiq -->
+
 
 <!--Footer-->
 
@@ -248,6 +274,8 @@
 	<!-- ./Footer -->
 
 <!-- ./Footer -->
+
+
 
 
 

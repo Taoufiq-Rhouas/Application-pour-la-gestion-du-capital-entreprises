@@ -3,37 +3,37 @@
     "local": "43 Boulevard Mohammed Zerktouni",
     "description": "Societé Informatique",
     "department": [{
-        "name": "Sécurité informatique",
+        "name": "Sécurité informatique1",
         "boss": "Mohammed Jabrane",
         "description": " protecter les données de l’entreprises"
     }, {
-        "name": "Département commercial",
+        "name": "Département commercial2",
         "boss": "Hassan Rami",
         "description": "Commercialisation des produits"
     }]
 }, {
-    "name": "Vivo Energy",
+    "name": "Vivo Energy3",
     "local": "Immeuble Zenith Ii , Sidi Mâarouf - Casablanca",
     "description": "commerce de produits pétroliers et chimiques ",
     "department": [{
-        "name": "Département Commercial ",
+        "name": "Département Commercial3",
         "boss": "Mr Tijani Oulfi",
         "description": "commercialisation des produits "
     }, {
-        "name": "Département Informatique",
+        "name": "Département Informatique4",
         "boss": "Sara El Ouzani",
         "description": "Management des Systèmes d'Information"
     }]
 }, {
-    "name": "AFRIQUIA GAZ",
+    "name": "AFRIQUIA GAZ5",
     "local": "Rue Ibnou El Ouennane Ain Sebaa - Aîn-Sebaâ (AR)",
     "description": "production et distribution de gaz de pétrole liquéfié",
     "department": [{
-        "name": "Département commercial",
+        "name": "Département commercial6",
         "boss": "Sara BouAniz",
         "description": "Commercialisation des produits"
     }, {
-        "name": "Département Production",
+        "name": "Département Production7",
         "boss": "Othman Ben Noussari",
         "description": "La gestion de la production"
     }]
@@ -42,11 +42,11 @@
     "local": "Rue amal Ain Sebaa  (AR)",
     "description": "centre d'affaires",
     "department": [{
-        "name": "Département comptabilité",
+        "name": "Département comptabilité8",
         "boss": "Faisal noussami",
         "description": "établir  les pièces comptables"
     }, {
-        "name": "Département informatique",
+        "name": "Département informatique9",
         "boss": "Noual El Hassani",
         "description": "informatiser les taches "
     }]
@@ -55,11 +55,11 @@
     "local": "7, rue Président El Bekkay, Tildi Agadir",
     "description": "Agence de communication à service complet",
     "department": [{
-        "name": "Département Commercial",
+        "name": "Département Commercial10",
         "boss": "Souad Ait Lhaj",
         "description": "la commercialisation des produits"
     }, {
-        "name": "Département GRH",
+        "name": "Département GRH11",
         "boss": "Omar Ben Hmidat",
         "description": "gestion du capital humain"
     }]
@@ -68,11 +68,11 @@
     "local": "137, bd Moulay Ismaïl, 4°ét.Casablanca",
     "description": "Fournitures des équipements industriels",
     "department": [{
-        "name": "Département GRH",
+        "name": "Département GRH12",
         "boss": "Fatimzzahra Toujani",
         "description": "gestion du capital humain"
     }, {
-        "name": "Département production",
+        "name": "Département production13",
         "boss": "Mohammed Benomar",
         "description": "Gérer la production"
     }]
