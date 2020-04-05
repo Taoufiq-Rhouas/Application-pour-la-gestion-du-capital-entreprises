@@ -5,8 +5,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 100, 230, 0.733)), to(rgba(26, 72, 146, 0.431))), url("../Images/back.jpg");
-  background-image: linear-gradient(to right, rgba(0, 100, 230, 0.733), rgba(26, 72, 146, 0.431)), url("../Images/back.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(40, 87, 148, 0.733)), to(rgba(26, 72, 146, 0.431))), url("../Images/back.jpg");
+  background-image: linear-gradient(to right, rgba(40, 87, 148, 0.733), rgba(26, 72, 146, 0.431)), url("../Images/back.jpg");
 }
 
 .wrapper {

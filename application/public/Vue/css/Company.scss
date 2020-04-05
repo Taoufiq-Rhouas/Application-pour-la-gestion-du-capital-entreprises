@@ -32,6 +32,17 @@ body {
         background-color: #4383cc;
     }
 }
+.my-sm-0{
+
+    border: 1px solid $firstcolor;
+    color: $firstcolor;
+    &:hover{
+
+        background-color:$firstcolor;
+        border: 1px solid $firstcolor;
+        color: $whiteColor;
+    }
+}
 
 .container {
     margin-left: 5px;
